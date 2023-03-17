@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.yellowBg{
+  background-color: #ccf04a;
+}
+
+.greenTxt{
+  color: #97ce4c;
+}
+
+.greenBg{
+  background-color: #97ce4c;
+}
+
+
+.card:hover{
+  transform: scale(1.05);
+}
+.header{
+  background-image: url("https://i.ytimg.com/vi/Dfu5mAXy0J4/maxresdefault.jpg");
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: 10% 30%  ;
+  background-size: cover;
+  box-shadow: 0px 10px 10px 1px rgb(255, 255, 255);
+}
+
+@media (min-width:300px){
+  .header{
+    background-position: 50%
+  }
+}
+
+@media (min-width: 800px){
+  .rickmortytxt{
+    width: 800px;
+    height: 250px;
+  }
+  .header{
+    display: flex;
+    justify-content: center;
+  }
+}
